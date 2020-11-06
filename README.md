@@ -1,4 +1,4 @@
-# hello-world-vue
+# hello-world-vue ![build](https://github.com/hibuz/hello-world-vue/workflows/CI/badge.svg)
 
 ## Project setup
 ```
