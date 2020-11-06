@@ -1,6 +1,7 @@
 {
   "name": "hello-world-vue",
   "version": "0.1.0",
+  "description": "sample",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
