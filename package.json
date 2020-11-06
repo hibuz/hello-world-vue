@@ -1,8 +1,10 @@
 {
-  "name": "hello-world-vue",
+  "name": "@hibuz/hello-world-vue",
   "version": "0.1.0",
   "description": "sample",
-  "private": true,
+  "publishConfig": {
+     "registry": "https://npm.pkg.github.com/"
+   },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -31,5 +33,7 @@
     "eslint": "^7.12.1",
     "eslint-plugin-vue": "^7.1.0",
     "vue-template-compiler": "^2.6.10"
-  }
+  },
+  "author": "hibuz",
+  "license": "MIT"
 }
