@@ -1,4 +1,4 @@
-name: Automated Tests and Linting
+name: CI
 
 on: [push]
 
@@ -16,8 +16,11 @@ jobs:
       - name: Install packages
         run: yarn install
 
-      - name: Run Typescript Checks
+      - name: Run Linting
         run: yarn lint
 
-      - name: Run Tests
+      - name: Run Test
+        run: yarn test:unit
+
+      - name: Run build
         run: yarn build
