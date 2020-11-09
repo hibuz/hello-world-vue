@@ -1,2 +1,2 @@
 # hello-world-vue
-:lemon: Vue test
+🍋 Vue test
