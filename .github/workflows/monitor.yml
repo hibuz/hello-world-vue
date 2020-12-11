@@ -22,8 +22,6 @@ jobs:
         run: |
           res=`curl -s https://docs.google.com/spreadsheets/d/1aXzns9mgucWf2hv0nORnFqmN6KuxNl9FTFXjIHNYeg4/gviz/tq? | grep "#N/A" | wc -l`
           if [[ $res == "1" ]]; then
-            echo "OK"
-          else
-            curl -X POST --data-urlencode "payload={\"text\": \"check google sheets!\"}" https://hooks.slack.com/services/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
+              curl -X POST --data-urlencode "payload={\"text\": \"check google sheets!\"}" https://hooks.slack.com/services/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
+              exit 1
           fi
-
